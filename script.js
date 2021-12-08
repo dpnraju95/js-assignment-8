@@ -1,4 +1,4 @@
-// var alltodo=document.getElementById("All");
+var alltodo=document.getElementById("All");
 var pendingtodo=document.getElementById("Pending");
 var Completedtodo=document.getElementById("Completed");
 
