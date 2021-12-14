@@ -1,0 +1,17 @@
+body{
+    background:#99ffcc;
+    margin-top:50px;
+    
+    text-align: center;
+}
+#todo{
+    font-size: 20px;
+    color: #000000;
+    background: #EBE8E7;
+}
+#todo_list{
+    color:#000000;
+    text-align: left;
+    font-size:25px;
+    padding:0 60px;
+}

@@ -1,27 +1,20 @@
 <html>
     <head>
         <title>Todo_List_Api</title>
-        <style>
-            *{
-                text-align: left;  
-
-            }
-            #pending , #completed{
-                text-align: center;
-                margin: 10px 80px;
-                background-color:  #99ffcc;
-                color:black;
-                list-style: disc;
-                border-radius: 10px;
-  
-            }
-        </style>
+        <link rel="stylesheet" href="screen.css">
     </head>
     <body>
         <div>
-            
-            <button id="pending">PENDING-TASK</button>  <!-- Button with Pending Task -->
-            <button id="completed">COMPLETED-TASK</button><!-- Button with Completed Task -->
+            <h2 style="font-size: 25px; color:#000000;" for="todo">Select Completed or pending</h2>
+            <select id="todo" name="todo">
+                <option value="None">Home</option>
+                <option  value="Completed">Completed</option>
+                <option  value="Pending">Pending</option>
+            </select>
+        </div>
+        
+        
+        <div id="todo_list">
         </div>
     </body>
     <script src='./script.js'></script>
